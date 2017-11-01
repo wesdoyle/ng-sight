@@ -9,8 +9,6 @@ const LINE_CHART_SAMPLE_DATA: any[] = [
 
 const LINE_CHART_LABELS: string[] = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'];
 
-
-
 @Component({
   selector: 'app-line-chart',
   templateUrl: './line-chart.component.html',
