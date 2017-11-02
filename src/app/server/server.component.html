@@ -1,9 +1,9 @@
-<div class="card mb-3 shadow block-status">
+<div class="card mb-3 shadow block-status" [ngStyle]="{'background-color': color}">
   <div class="card-header name">
     {{ serverInput.name }}
   </div>
   <div class="card-body status">
     {{ serverInput.isOnline }}
   </div>
-  <button class="btn btn-default action">Toggle Status</button>
+  <button (click)="toggleStatus(serverInput.isOnline)" class="btn btn-default action">Toggle Status</button>
 </div>
