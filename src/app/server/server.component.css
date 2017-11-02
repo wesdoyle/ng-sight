@@ -1,0 +1,29 @@
+.block-status {
+    width: 200px;
+    height: 200px;
+    font-size: 1.3em;
+    color: #000;
+    text-align: center;
+    padding: 0 20px;
+    margin: 20px;
+}
+
+.status {
+    display: block;
+    transition: 0.3;
+}
+
+.name {
+    padding: 5px;
+    font-size: 0.7em;
+    display: block;
+    font-family: monospace;
+    transition: 0.3;
+}
+
+.action {
+    display: block;
+    font-size: 0.7em;
+    margin-top: 12px;
+    transition: 0.3s;
+}
