@@ -1,3 +1,7 @@
-<p>
-  pagination works!
-</p>
+<div class="pages">
+  <span class="page-counts">X through Y of Z orders</span>
+  <span class="page-totals">{{ totalPages() }} total pages</span>
+  <button class="btn btn-small btn-info" (click)="onPrev()">Previous Page</button>
+  <b>...</b>
+  <button class="btn btn-small btn-info" (click)="onNext()">Next Page</button>
+</div>
