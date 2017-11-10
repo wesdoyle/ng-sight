@@ -2,7 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import _ from 'lodash';
 import { THEME_COLORS } from '../../shared/theme.colors';
 
-const theme = 'Default';
+const theme = 'Bright';
 
 @Component({
   selector: 'app-pie-chart',
